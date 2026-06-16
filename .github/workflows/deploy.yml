@@ -15,6 +15,7 @@ permissions:
 
 jobs:
   deploy:
+    if: ${{ vars.INSTANCE_ID != '' }}   # skip until an instance is provisioned
     uses: ricopicone/parody-web/.github/workflows/deploy-reusable.yml@main
     with:
       region: ${{ vars.AWS_REGION }}
