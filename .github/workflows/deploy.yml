@@ -9,6 +9,10 @@ on:
       release_tag:
         description: "content release tag to import (blank = latest)"
         required: false
+permissions:
+  id-token: write   # required so the reusable deploy workflow can use OIDC
+  contents: read
+
 jobs:
   deploy:
     uses: ricopicone/parody-web/.github/workflows/deploy-reusable.yml@main
