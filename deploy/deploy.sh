@@ -45,7 +45,10 @@ if [ -n "${CONTENT_REPO:-}" ] && [ -n "${ARTIFACT_ASSET:-}" ]; then
     [ -f "$TMP/$MEDIA_ASSET" ] && unzip -oq "$TMP/$MEDIA_ASSET" \
       -d "${BOOKSITE_MEDIA_ROOT:?set BOOKSITE_MEDIA_ROOT for media}"
   fi
-  "$VENV/bin/python" manage.py import_artifact "$TMP/$ARTIFACT_ASSET" --slug "$BOOK_SLUG"
+  PREVIEW_ARG=""
+  [ -f "$APP_DIR/deploy/preview-hashes.txt" ] && \
+    PREVIEW_ARG="--preview-hashes $APP_DIR/deploy/preview-hashes.txt"
+  "$VENV/bin/python" manage.py import_artifact "$TMP/$ARTIFACT_ASSET" --slug "$BOOK_SLUG" $PREVIEW_ARG
 else
   echo "==> no CONTENT_REPO/ARTIFACT_ASSET set; skipping content import"
 fi
