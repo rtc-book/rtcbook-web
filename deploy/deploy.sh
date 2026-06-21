@@ -48,7 +48,10 @@ if [ -n "${CONTENT_REPO:-}" ] && [ -n "${ARTIFACT_ASSET:-}" ]; then
   PREVIEW_ARG=""
   [ -f "$APP_DIR/deploy/preview-hashes.txt" ] && \
     PREVIEW_ARG="--preview-hashes $APP_DIR/deploy/preview-hashes.txt"
-  "$VENV/bin/python" manage.py import_artifact "$TMP/$ARTIFACT_ASSET" --slug "$BOOK_SLUG" $PREVIEW_ARG
+  REFS_ARG=""
+  [ -f "$APP_DIR/deploy/references.json" ] && \
+    REFS_ARG="--references $APP_DIR/deploy/references.json"
+  "$VENV/bin/python" manage.py import_artifact "$TMP/$ARTIFACT_ASSET" --slug "$BOOK_SLUG" $PREVIEW_ARG $REFS_ARG
 else
   echo "==> no CONTENT_REPO/ARTIFACT_ASSET set; skipping content import"
 fi
