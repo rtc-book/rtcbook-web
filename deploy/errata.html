@@ -1,0 +1,195 @@
+<h1 id="errata-and-typos">Errata and Typos</h1>
+<p>Errata and typos will be listed here as they are discovered. Please
+report errata and typos by <a
+href="https://github.com/rtc-book/errata/issues">submitting an issue</a>
+on GitHub or by <a
+href="https://www.stmartin.edu/directory/faculty-staff-directory/rico-picone-phd">contacting
+Rico Picone</a>.</p>
+<ul>
+<li><p>Page 12: “translations them” should be “translations among
+them”.</p></li>
+<li><p>Page 18: “is the for cube()” should be “is the prototype for
+cube()”</p></li>
+<li><p>Page 23: footnote 16: “which handle” should be “which
+handles”.</p></li>
+<li><p>Page 34, Listing 3:
+<code>double interactive_add(double total)</code> (in both the prototype
+and the function definition) should be
+<code>int interactive_add(double total)</code>, since the function
+returns <code>EXIT_SUCCESS</code>, which is of type <code>int</code>.
+(Credit: Julian Soh)</p></li>
+<li><p>Page 39: “(sections 1.1 to 1.5)” should be “(sections 1.1 to
+1.6)”.</p></li>
+<li><p>Page 55, binary-conversion example for <span
+class="math inline">\(421.73\_{10}\)</span> has two errors. First, the
+last overflow in the table should be 1, not 0. Second, the binary
+repeating block starts after the second fractional digit and ends one
+digit earlier, so the result should be <span
+class="math inline">\(421.73\_{10} =
+110100101.10\overline{11101011100001010001}\_2\)</span>. (Credit: Tina
+Hu)</p></li>
+<li><p>Page 99: “<code>args</code>” should be <code>ap</code> (4
+times).</p></li>
+<li><p>Page 100: The statement, “The expression <code>*p++</code>,
+equivalent to <code>(*p)++</code>, evaluates to the dereferenced
+<code>p</code> first” should be, “The expression <code>*p++</code>
+evaluates to the dereferenced <code>p</code> first”.</p></li>
+<li><p>Page 107: Instead of <span class="math inline">\(d_0\)</span>
+through <span class="math inline">\(d_9\)</span>, task durations should
+be <span class="math inline">\(d_1\)</span> through <span
+class="math inline">\(d_{10}\)</span>. Accordingly, <span
+class="math inline">\(d_0 = 88\)</span> should be <span
+class="math inline">\(d_1 = 88\)</span> and <span
+class="math inline">\(d_8&#39; = 88\)</span> should be <span
+class="math inline">\(d_9&#39; = 88\)</span>.</p></li>
+<li><p>Page 110: “but unnecessary, for a program” should be “but
+unnecessary for, a program”.</p></li>
+<li><p>Page 112: “to control the calls to <code>time_it()</code> and
+interpret the results.” should be “to time calls to each mean-computing
+function and interpret the results”.</p></li>
+<li><p>Page 116: the comment on <code>int y[2] = {3, 9};</code> reads
+“<code>// defines, defines, and initializes an array</code>” but should
+read “<code>// declares, defines, and initializes an array</code>”
+(matching the comment on the <code>float x = 7;</code> line above).
+(Credit: Tina Hu)</p></li>
+<li><p>Page 124: “<code>3+8</code> will be computed first” should be
+“<code>3+18</code> will be computed first”.</p></li>
+<li><p>Page 124, Example 2.2: the problem statement uses
+<code>x /= -2;</code> as the fifth line of the code block, but the
+solution program on page 125 uses <code>x /= x += 1;</code> (which is
+what produces the listed output). The problem statement should use
+<code>x /= x += 1;</code> to match. (Credit: Tina Hu)</p></li>
+<li><p>Page 125: Before the line “<code>x == 7</code>”, there should be
+a line “<code>x == 1</code>”.</p></li>
+<li><p>Page 144: “some some distortion and noise” should be “some
+distortion and noise” (duplicate word). (Credit: Tina Hu)</p></li>
+<li><p>Page 150: the parity-bit definition is reversed. The text reads,
+“In even parity, the transmitter sends a logical true 1 parity bit if
+the number of true 1 bits in the data is even, and a logical false 0
+when it is odd.” It should read, “In even parity, the transmitter sends
+a logical false 0 parity bit if the number of true 1 bits in the data is
+even, and a logical true 1 when it is odd. The parity bit ensures that
+the total number of 1 bits, including the parity bit, is even for even
+parity.” (Credit: Tina Hu)</p></li>
+<li><p>Page 152: “data terminal equivalent (DTE)” should be “data
+terminal equipment (DTE)”. (Credit: Tina Hu)</p></li>
+<li><p>Page 172, Problem 3.1: “How long with it take” should be “How
+long will it take”. (Credit: Tina Hu)</p></li>
+<li><p>Page 217, figure 4.17a: both transitions to state A should
+include that output O goes to 0. The updated figure is below (Credit:
+Sawyer Fuller):</p>
+<figure>
+<img src="/media/errata-fsm-1.svg"
+alt="Corrected figure 4.17a" />
+<figcaption aria-hidden="true">Corrected figure 4.17a</figcaption>
+</figure></li>
+<li><p>Pages 219 and 221: <code>stateB()</code> function should reset
+<code>K</code> to be <code>0</code> if <code>R</code> is pressed.
+(Credit: Sawyer Fuller)</p></li>
+<li><p>Page 219, table 4.3: R is irrelevant input in rows A and C. The
+updated table is below (Credit: Sawyer Fuller):</p>
+<figure>
+<img src="/media/errata-table-4-3.png"
+alt="Corrected table 4.3" />
+<figcaption aria-hidden="true">Corrected table 4.3</figcaption>
+</figure></li>
+<li><p>Page 228, Lab 4 (Pulse-Width Modulation): “the percentage of time
+that the DIO channel is low” should be “the percentage of time that the
+DIO channel is high” — since <code>run = 1</code> is the state in which
+current flows through the motor. (Credit: Tina Hu)</p></li>
+<li><p>Page 259, last line: “Consider the state 01, which can only have
+occurred with <span class="math inline">\((S, R) = (0, 1)\)</span>”
+should be “Consider the state 01, which normally occurs from <span
+class="math inline">\((S, R) = (0, 1)\)</span>” (state 01 can also
+persist when <span class="math inline">\((S, R) = (0, 0)\)</span>).
+(Credit: Tina Hu)</p></li>
+<li><p>Page 260, paragraph 2, line 4: “which must therefore change its
+output to <span class="math inline">\(Q = 0\)</span>” should be “<span
+class="math inline">\(Q = 1\)</span>”. (Credit: Tina Hu)</p></li>
+<li><p>Page 275: <code>irqThread0.irqNumber = IrqNumber</code> should be
+<code>irqThread0.irqNumber = irqNumber</code>. (Credit: Sawyer
+Fuller)</p></li>
+<li><p>Page 278: In figure 5.16, instead of the output of the <span
+class="math inline">\(\alpha\)</span> NAND gate, it should be the output
+of the <span class="math inline">\(\beta\)</span> NAND gate that is
+connected to <code>DIO0</code>. The corrected figure is shown below
+(Credit: Sawyer Fuller):</p>
+<figure>
+<img
+src="/media/errata-lab5-switch.svg"
+alt="Corrected figure 5.16" />
+<figcaption aria-hidden="true">Corrected figure 5.16</figcaption>
+</figure></li>
+<li><p>Page 287: in the SAR recursion <span class="math inline">\(x(i) =
+x(i-1) + \mathrm{sgn}(x(i-1) - x_\mathit{IN}) / 2^i\)</span>, the
+<code>+</code> should be <code>-</code> (so the estimate converges
+toward <span class="math inline">\(x_\mathit{IN}\)</span>). (Credit:
+Tina Hu)</p></li>
+<li><p>Page 297: <span class="math inline">\(n &gt; 0\)</span> should be
+<span class="math inline">\(n \ge 0\)</span>. (Credit: Sawyer
+Fuller)</p></li>
+<li><p>Page 301: <code>v_out = Aio_Write(&amp;AOC1, v_out);</code>
+should be <code>Aio_Write(&amp;AOC1, v_out);</code> (no assignment),
+since <code>Aio_Write()</code> returns <code>void</code>. (Credit: Tina
+Hu)</p></li>
+<li><p>Page 304: <code>timeoutValue = 5;</code> is better as
+<code>timeoutValue = 500;</code>, in keeping with the lab exercise.
+(Credit: Sawyer Fuller)</p></li>
+<li><p>Page 308, Problem 6.1: “assuming that the input <span
+class="math inline">\(x(n) = 1\)</span> for all <span
+class="math inline">\(n\)</span> and the output <span
+class="math inline">\(y(n) = 0\)</span> for all <span
+class="math inline">\(n &lt; 0\)</span>” should specify the input’s
+boundary too: “assuming that the input <span class="math inline">\(x(n)
+= 1\)</span> for all <span class="math inline">\(n \ge 0\)</span> and
+<span class="math inline">\(x(n) = 0\)</span> for all <span
+class="math inline">\(n &lt; 0\)</span>, and the output <span
+class="math inline">\(y(n) = 0\)</span> for all <span
+class="math inline">\(n &lt; 0\)</span>”. (Credit: Tina Hu)</p></li>
+<li><p>Page 309, Problem 6.8: “The sampling begins at an arbitrary and
+unknown time <span class="math inline">\(t_0\)</span>” — “<span
+class="math inline">\(t_0\)</span>” should be omitted (in figure 6.16,
+<span class="math inline">\(t_0\)</span> marks the wave’s start, not the
+sampling start). (Credit: Tina Hu)</p></li>
+<li><p>Page 316, Problem L6.5: “(AC coupled)” should be “(DC coupled)”.
+(Credit: Tina Hu)</p></li>
+<li><p>Pages 322 and 354, equation (7.4): <span
+class="math inline">\(T_s = 4 / (\zeta \omega_n)\)</span> should be
+<span class="math inline">\(T_s \approx 4 / (\zeta \omega_n)\)</span>
+(the settling-time formula is an approximation). (Credit: Tina
+Hu)</p></li>
+<li><p>Page 335: “If there are surviving factors of <span
+class="math inline">\(s\)</span> in the numerator of the open-loop
+transfer function, called <em>differentiators</em>, the steady-state
+error will be infinite” — “infinite” should be “unity” (with <span
+class="math inline">\(K_p \to 0\)</span>, the step-input steady-state
+error is <span class="math inline">\(1 / (1 + 0) = 1\)</span>). (Credit:
+Tina Hu)</p></li>
+<li><p>Page 353, equation (7.31): the numerator <span
+class="math inline">\(\bar{s} + Z\)</span> should be <span
+class="math inline">\(\bar{s} - Z\)</span> (so the open-loop
+integral-compensator zero is at <span class="math inline">\(\bar{s} =
+Z\)</span>, consistent with the negative-real-axis zero locations shown
+in figure 7.20). (Credit: Tina Hu)</p></li>
+<li><p>Page 356: Figure 7.21(a): the zero shown at <span
+class="math inline">\(-40\)</span> on the real axis should not be there;
+the zero should be at <span class="math inline">\(-\infty\)</span> on
+the real axis. (Credit: Tina Hu)</p></li>
+<li><p>Page 360, just before equation (7.35): “<span
+class="math inline">\(\psi \in (0, 1)\)</span>” should be “<span
+class="math inline">\(\zeta&#39; \in (0, 1)\)</span>” (the underdamped
+condition constrains the damping ratio, not the design-point location).
+(Credit: Tina Hu)</p></li>
+<li><p>Page 361, equation (7.40): in <span
+class="math inline">\(\zeta&#39; = -\Re(\psi) / (Z(B/J +
+2\Re(\psi)))\)</span>, the denominator is missing a square root and
+should be <span class="math inline">\(\sqrt{Z(B/J +
+2\Re(\psi))}\)</span> (matching <span
+class="math inline">\(\omega&#39;_n\)</span> from the same equation).
+(Credit: Tina Hu)</p></li>
+<li><p>Page 402: “set <code>itime = -1</code> and
+<code>*iseg = -1</code> to initialize its operation” —
+<code>*iseg</code> should be <code>iseg</code> (the initialization
+happens in the caller’s scope before <code>&amp;iseg</code> is passed to
+<code>Sramps()</code>). (Credit: Tina Hu)</p></li>
+</ul>
