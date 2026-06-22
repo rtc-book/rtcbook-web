@@ -37,8 +37,12 @@ git reset --hard "$GIT_REF"
 if [ -n "${CONTENT_REPO:-}" ] && [ -n "${ARTIFACT_ASSET:-}" ]; then
   TMP="$(mktemp -d)"; trap 'rm -rf "$TMP"' EXIT
   TAG_ARGS=(); [ -n "${RELEASE_TAG:-}" ] && TAG_ARGS=("$RELEASE_TAG")
+  # Edition-aware books ship one artifact per edition (<stem>.<edition>.json)
+  # plus the canonical <asset>; pull them all. Single-edition books match just
+  # the one file. (Derive a glob from the configured asset name.)
+  ARTIFACT_GLOB="${ARTIFACT_ASSET%.json}*.json"
   GH_TOKEN="${GH_TOKEN:-}" gh release download "${TAG_ARGS[@]}" \
-    --repo "$CONTENT_REPO" --pattern "$ARTIFACT_ASSET" --dir "$TMP" --clobber
+    --repo "$CONTENT_REPO" --pattern "$ARTIFACT_GLOB" --dir "$TMP" --clobber
   if [ -n "${MEDIA_ASSET:-}" ]; then
     GH_TOKEN="${GH_TOKEN:-}" gh release download "${TAG_ARGS[@]}" \
       --repo "$CONTENT_REPO" --pattern "$MEDIA_ASSET" --dir "$TMP" --clobber || true
@@ -58,7 +62,20 @@ if [ -n "${CONTENT_REPO:-}" ] && [ -n "${ARTIFACT_ASSET:-}" ]; then
   [ -f "$APP_DIR/deploy/extra-media/cover.jpg" ] && COVER_ARG="--cover cover.jpg"
   ERRATA_ARG=""
   [ -f "$APP_DIR/deploy/errata.html" ] && ERRATA_ARG="--errata $APP_DIR/deploy/errata.html"
-  "$VENV/bin/python" manage.py import_artifact "$TMP/$ARTIFACT_ASSET" --slug "$BOOK_SLUG" $PREVIEW_ARG $REFS_ARG $COVER_ARG $ERRATA_ARG
+  # Import every downloaded artifact (one per edition for edition-aware books;
+  # a single file otherwise). Each artifact self-identifies its edition; drafts
+  # import too and are gated to the owner by the renderer.
+  shopt -s nullglob
+  imported=0
+  for art in "$TMP"/*.json; do
+    "$VENV/bin/python" manage.py import_artifact "$art" --slug "$BOOK_SLUG" $PREVIEW_ARG $REFS_ARG $COVER_ARG $ERRATA_ARG
+    imported=$((imported + 1))
+  done
+  [ "$imported" -eq 0 ] && echo "==> warning: no artifact JSON matched '$ARTIFACT_GLOB'"
+  # One-time cleanup: once edition-aware artifacts are imported, drop any
+  # pre-edition (edition_id="") row for this book so it doesn't linger as a
+  # blank entry in the switcher. No-op for genuinely single-edition books.
+  "$VENV/bin/python" manage.py shell -c "from parody_web.models import Book as B; qs=B.objects.filter(slug='$BOOK_SLUG'); (qs.filter(edition_id='').delete() if qs.exclude(edition_id='').exists() else None)"
 else
   echo "==> no CONTENT_REPO/ARTIFACT_ASSET set; skipping content import"
 fi
