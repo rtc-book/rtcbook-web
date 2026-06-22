@@ -4,8 +4,8 @@
 "full": "Click and Clack. Car Talk Episode 2395: Pour, Poor Sarah. National Public Radio (NPR) broadcast. 2023."
 },
 "realtimelinux-deadlines": {
-"label": "Linux~Kernel~Organization (2023)",
-"full": "Linux~Kernel~Organization. Deadline Task Scheduling. Web. 2023."
+"label": "Organization (2023)",
+"full": "Linux Kernel Organization. Deadline Task Scheduling. Web. 2023."
 },
 "book:2154800": {
 "label": "Guerra et al. (2017)",
@@ -25,15 +25,15 @@
 },
 "gulerce2012": {
 "label": "Parker et al. (2012)",
-"full": "Parker, Ian and Frosh, Stephen and Paredes-Canilao, Narcisa and Malone, Kareen Ror and Kelly, Shannon D. and Vanheule, Stijn and Geldhof, Abe and Neill, Calum and Hayes, Grahame and Hook, Derek and Olivier, Bert and Branney, Peter and Gough, Brendan and Madill, Anna and Morgan, Mandy and Baraitser, Lisa and G\\\"ulerce, Aydan. Re(con)figuring Psychoanalysis: Critical Juxtapositions of the Philosophical, the Sociohistorical and the Political. Palgrave Macmillan UK. 2012."
+"full": "Parker, Ian and Frosh, Stephen and Paredes-Canilao, Narcisa and Malone, Kareen Ror and Kelly, Shannon D. and Vanheule, Stijn and Geldhof, Abe and Neill, Calum and Hayes, Grahame and Hook, Derek and Olivier, Bert and Branney, Peter and Gough, Brendan and Madill, Anna and Morgan, Mandy and Baraitser, Lisa and Gulerce, Aydan. Re(con)figuring Psychoanalysis: Critical Juxtapositions of the Philosophical, the Sociohistorical and the Political. Palgrave Macmillan UK. 2012."
 },
 "barad2007": {
 "label": "Barad (2007)",
 "full": "Barad, Karen. Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning. Duke University Press. 2007."
 },
 "astrom2006": {
-"label": "\\AAstr\\\"om and H\\\"agglund (2006)",
-"full": "\\AAstr\\\"om, K. J. and H\\\"agglund, T.. Advanced PID Control. ISA Instrumentation, Systems and Automation Society. 2006."
+"label": "strom and Hagglund (2006)",
+"full": "strom, K. J. and Hagglund, T.. Advanced PID Control. ISA Instrumentation, Systems and Automation Society. 2006."
 },
 "samek2008": {
 "label": "Samek (2008)",
@@ -84,8 +84,8 @@
 "full": "Seacord, R. C.. Effective C: An Introduction to Professional C Programming. No Starch Press. 2020."
 },
 "iso9091348": {
-"label": "International~Organization~for~Standardization~(ISO) (2020)",
-"full": "International~Organization~for~Standardization~(ISO). ISO/IEC/IEEE International Standard---Floating-Point Arithmetic. ISO/IEC 60559:2020(E) IEEE Std 754-2019. 2020."
+"label": "(ISO) (2020)",
+"full": "International Organization for Standardization (ISO). ISO/IEC/IEEE International Standard—Floating-Point Arithmetic. ISO/IEC 60559:2020(E) IEEE Std 754-2019. 2020."
 },
 "grimaldi2004": {
 "label": "Grimaldi (2004)",
@@ -104,8 +104,8 @@
 "full": "Dijkstra, Edsger W.. Letters to the Editor: Go to Statement Considered Harmful. Commun. ACM. 1968."
 },
 "banyasz2019": {
-"label": "B\\'any\\'asz (2019)",
-"full": "B\\'any\\'asz, Csilla; Bars, Ruth; Hetth\\'essy Jen\\H o; Keviczky L\\'aszl\\'o et al.. Control engineering. Springer. 2019."
+"label": "Banyasz (2019)",
+"full": "Banyasz, Csilla; Bars, Ruth; Hetthessy Jen o; Keviczky Laszlo et al.. Control engineering. Springer. 2019."
 },
 "plutarch": {
 "label": "Plutarch (1927)",
@@ -125,7 +125,7 @@
 },
 "ansi2002": {
 "label": "Incits (2002)",
-"full": "Incits. American National Standard for Information Systems---Coded Character Sets---7-Bit American National Standard Code for Information Interchange (7-Bit ASCII). 2002."
+"full": "Incits. American National Standard for Information Systems—Coded Character Sets—7-Bit American National Standard Code for Information Interchange (7-Bit ASCII). 2002."
 },
 "Zuch_1979": {
 "label": "Zuch (1979)",
@@ -164,8 +164,8 @@
 "full": "Picone, Rico A. R. and Garbini, Joseph L. and Devine, Cameron. RTCBook Code for Analysis repository. Web. 2022."
 },
 "csupport6": {
-"label": "National~Instruments (2018)",
-"full": "National~Instruments. C Support for myRIO 6.0 User Guide. Web. 2018."
+"label": "Instruments (2018)",
+"full": "National Instruments. C Support for myRIO 6.0 User Guide. Web. 2018."
 },
 "ogata2010": {
 "label": "Ogata (2010)",
@@ -180,8 +180,8 @@
 "full": "Murray, Richard and Paassen, Rene van and Bucher, Roberto and Livinston, Scott C. and Community. Python Control Systems Library. Web. 2022."
 },
 "7438": {
-"label": "Texas~Instruments (2022)",
-"full": "Texas~Instruments. SN7438 4-ch, 2-input, 4.75-V to 5.25-V bipolar NAND gates with open-collector outputs. 2022."
+"label": "Instruments (2022)",
+"full": "Texas Instruments. SN7438 4-ch, 2-input, 4.75-V to 5.25-V bipolar NAND gates with open-collector outputs. 2022."
 },
 "shiva2014": {
 "label": "Shiva (2014)",
@@ -193,7 +193,7 @@
 },
 "copi2019": {
 "label": "Copi et al. (2019)",
-"full": "Copi, Irving M. and Cohen, Carl and Rodych, Victor. Introduction to Logic. Taylor \\& Francis. 2019."
+"full": "Copi, Irving M. and Cohen, Carl and Rodych, Victor. Introduction to Logic. Taylor & Francis. 2019."
 },
 "givant2008": {
 "label": "Givant and Halmos (2008)",
@@ -208,56 +208,56 @@
 "full": "Arm. PrimeCell Generic Interrupt Controller (PL390). 2009."
 },
 "Rybczynska2020": {
-"label": "Rybczy\\'nska (2020)",
-"full": "Rybczy\\'nska, Marta. A Realtime Developer's Checklist. Web. 2020."
+"label": "Rybczynska (2020)",
+"full": "Rybczynska, Marta. A Realtime Developer's Checklist. Web. 2020."
 },
 "Reghenzani2019": {
 "label": "Reghenzani et al. (2019)",
-"full": "Reghenzani, Federico and Massari, Giuseppe and Fornaciari, William. The Real-Time Linux Kernel: A Survey on \\textttPREEMPT\\_RT. ACM Computing Surveys. 2019."
+"full": "Reghenzani, Federico and Massari, Giuseppe and Fornaciari, William. The Real-Time Linux Kernel: A Survey on PREEMPT\\_RT. ACM Computing Surveys. 2019."
 },
 "realtimelinux-howto": {
-"label": "Linux~Foundation (2022)",
-"full": "Linux~Foundation. HOWTO: RTOS and RT Applications. Web. 2022."
+"label": "Foundation (2022)",
+"full": "Linux Foundation. HOWTO: RTOS and RT Applications. Web. 2022."
 },
 "pthread_exit": {
-"label": "Open~Group (2018)",
-"full": "Open~Group. \\textttpthread\\_exit---thread termination. 2018."
+"label": "Group (2018)",
+"full": "Open Group. pthread\\_exit—thread termination. 2018."
 },
 "pthread_create": {
-"label": "Open~Group (2018)",
-"full": "Open~Group. \\textttpthread\\_create---thread creation. 2018."
+"label": "Group (2018)",
+"full": "Open Group. pthread\\_create—thread creation. 2018."
 },
 "schedh": {
-"label": "Open~Group (2018)",
-"full": "Open~Group. sched.h---execution scheduling. 2018."
+"label": "Group (2018)",
+"full": "Open Group. sched.h—execution scheduling. 2018."
 },
 "timeh": {
-"label": "Open~Group (2018)",
-"full": "Open~Group. time.h---time types. 2018."
+"label": "Group (2018)",
+"full": "Open Group. time.h—time types. 2018."
 },
 "pthreadh": {
-"label": "Open~Group (2018)",
-"full": "Open~Group. pthread.h---threads. 2018."
+"label": "Group (2018)",
+"full": "Open Group. pthread.h—threads. 2018."
 },
 "ogness2020": {
 "label": "Ogness (2020)",
 "full": "Ogness, John. A Checklist for Writing Linux Real-Time Applications. 2020."
 },
 "realtimelinux-basics": {
-"label": "Linux~Foundation (2022)",
-"full": "Linux~Foundation. Technical Basics: Important Aspects for Real Time (Real-Time Linux). Web. 2022."
+"label": "Foundation (2022)",
+"full": "Linux Foundation. Technical Basics: Important Aspects for Real Time (Real-Time Linux). Web. 2022."
 },
 "xenomai": {
-"label": "Xenomai~Community (2022)",
-"full": "Xenomai~Community. Xenomai 4. Web. 2022."
+"label": "Community (2022)",
+"full": "Xenomai Community. Xenomai 4. Web. 2022."
 },
 "rtai": {
-"label": "RTAI~Community (2022)",
-"full": "RTAI~Community. RTAI---the RealTime Application Interface for Linux. Web. 2022."
+"label": "Community (2022)",
+"full": "RTAI Community. RTAI—the RealTime Application Interface for Linux. Web. 2022."
 },
 "linusaccepts": {
-"label": "Linux~Foundation (2022)",
-"full": "Linux~Foundation. The Jury Has Spoken. Web. 2022."
+"label": "Foundation (2022)",
+"full": "Linux Foundation. The Jury Has Spoken. Web. 2022."
 },
 "linuscrazy": {
 "label": "Gleixner (2010)",
@@ -268,24 +268,24 @@
 "full": "Bovet, D. P. and Cesati, M.. Understanding the Linux Kernel. O'Reilly. 2002."
 },
 "realtimelinux": {
-"label": "Linux~Foundation (2022)",
-"full": "Linux~Foundation. Real-Time Linux Wiki. Web. 2022."
+"label": "Foundation (2022)",
+"full": "Linux Foundation. Real-Time Linux Wiki. Web. 2022."
 },
 "vxworks": {
-"label": "Wind~River~Systems (2022)",
-"full": "Wind~River~Systems. VxWorks. Web. 2022."
+"label": "Systems (2022)",
+"full": "Wind River Systems. VxWorks. Web. 2022."
 },
 "nuttx": {
-"label": "Apache~Software~Foundation (2022)",
-"full": "Apache~Software~Foundation. Apache NuttX. Web. 2022."
+"label": "Foundation (2022)",
+"full": "Apache Software Foundation. Apache NuttX. Web. 2022."
 },
 "micrium": {
-"label": "Silicon~Laboratories (2022)",
-"full": "Silicon~Laboratories. Micriμm OS. Web. 2022."
+"label": "Laboratories (2022)",
+"full": "Silicon Laboratories. Micriμm OS. Web. 2022."
 },
 "freertos": {
-"label": "Amazon~Web~Services (2022)",
-"full": "Amazon~Web~Services. FreeRTOS. Web. 2022."
+"label": "Services (2022)",
+"full": "Amazon Web Services. FreeRTOS. Web. 2022."
 },
 "barry2016": {
 "label": "Barry (2016)",
@@ -293,7 +293,7 @@
 },
 "rtposix1b": {
 "label": "IEEE (1994)",
-"full": "IEEE. IEEE Standard for Information Technology---Portable Operating System Interfaces (POSIX(TM))---Part 1: System Application Program Interface (API)---Amendment 1: Realtime Extension [C language]. IEEE Std 1003.1b-1993. 1994."
+"full": "IEEE. IEEE Standard for Information Technology—Portable Operating System Interfaces (POSIX(TM))—Part 1: System Application Program Interface (API)—Amendment 1: Realtime Extension [C language]. IEEE Std 1003.1b-1993. 1994."
 },
 "wang2017": {
 "label": "Wang (2017a)",
@@ -301,15 +301,15 @@
 },
 "rtposix13": {
 "label": "IEEE (2004)",
-"full": "IEEE. IEEE Standard for Information Technology---Standardized Application Environment Profile (AEP)---POSIX(TM) Realtime and Embedded Application Support. IEEE Std 1003.13-2003 (Revision of IEEE Std 1003.13-1998). 2004."
+"full": "IEEE. IEEE Standard for Information Technology—Standardized Application Environment Profile (AEP)—POSIX(TM) Realtime and Embedded Application Support. IEEE Std 1003.13-2003 (Revision of IEEE Std 1003.13-1998). 2004."
 },
 "fpgaPersonality6": {
-"label": "National~Instruments (2020)",
-"full": "National~Instruments. myRIO Shipping Personality 6.0 Reference. Web. 2020."
+"label": "Instruments (2020)",
+"full": "National Instruments. myRIO Shipping Personality 6.0 Reference. Web. 2020."
 },
 "avago2022": {
-"label": "Avago~Technologies (2022)",
-"full": "Avago~Technologies. HEDM-55xx/560x \\& HEDS-55xx/56xx Quick Assembly Two- and Three-Channel Optical Encoders Data Sheet. Web. 2022."
+"label": "Technologies (2022)",
+"full": "Avago Technologies. HEDM-55xx/560x & HEDS-55xx/56xx Quick Assembly Two- and Three-Channel Optical Encoders Data Sheet. Web. 2022."
 },
 "doebelin2004": {
 "label": "Doebelin (2004)",
@@ -324,12 +324,12 @@
 "full": "Franco, Sergio. Design with Operational Amplifiers and Analog Integrated Circuits. McGraw-Hill Higher Education. 2014."
 },
 "lm675": {
-"label": "Texas~Instruments (2013)",
-"full": "Texas~Instruments. LM675 Power Operational Amplifier. Web. 2013."
+"label": "Instruments (2013)",
+"full": "Texas Instruments. LM675 Power Operational Amplifier. Web. 2013."
 },
 "electrocraft-23smdc": {
-"label": "Servo~Systems (2021)",
-"full": "Servo~Systems. Home/Products by Manufacturer /Electrocraft/ Brush DC Servo Motor Electrocraft Brush DC Servo Motor. Web. 2021."
+"label": "Systems (2021)",
+"full": "Servo Systems. Home/Products by Manufacturer /Electrocraft/ Brush DC Servo Motor Electrocraft Brush DC Servo Motor. Web. 2021."
 },
 "grayhill88bb2": {
 "label": "Grayhill (2022)",
@@ -344,12 +344,12 @@
 "full": "Anderson, E. and Bai, Z. and Bischof, C. and Blackford, S. and Demmel, J. and Dongarra, J. and Du Croz, J. and Greenbaum, A. and Hammarling, S. and McKenney, A. and Sorensen, D.. LAPACK Users' Guide. Society for Industrial and Applied Mathematics. 1999."
 },
 "ivi2020": {
-"label": "Interchangeable~Virtual~Instruments~(IVI)~Foundation (2020)",
-"full": "Interchangeable~Virtual~Instruments~(IVI)~Foundation. VPP-4.3: The VISA Library. Web. 2020."
+"label": "Foundation (2020)",
+"full": "Interchangeable Virtual Instruments (IVI) Foundation. VPP-4.3: The VISA Library. Web. 2020."
 },
 "oshwa": {
-"label": "Open~Source~Hardware~Association (2022)",
-"full": "Open~Source~Hardware~Association. A Resolution to Redefine SPI Signal Names. Web. 2022."
+"label": "Association (2022)",
+"full": "Open Source Hardware Association. A Resolution to Redefine SPI Signal Names. Web. 2022."
 },
 "rs644": {
 "label": "TIA (2000)",
@@ -364,8 +364,8 @@
 "full": "TIA. TIA/EIA-485-A Electrical Characteristics of Generators and Receivers for Use in Balanced Digital Multipoint Systems. 1998."
 },
 "rs232": {
-"label": "Telecommunications~Industry~Association~(TIA) (1997)",
-"full": "Telecommunications~Industry~Association~(TIA). TIA/EIA-232-F Interface between Data Terminal Equipment and Data Cicuit-Terminating Equipment Employing Serial Binary Data Interchange. 1997."
+"label": "(TIA) (1997)",
+"full": "Telecommunications Industry Association (TIA). TIA/EIA-232-F Interface between Data Terminal Equipment and Data Cicuit-Terminating Equipment Employing Serial Binary Data Interchange. 1997."
 },
 "axelson2007": {
 "label": "Axelson (2007)",
@@ -373,7 +373,7 @@
 },
 "clarke1958": {
 "label": "Clarke (1974)",
-"full": "Clarke, Arthur C.. Voice across the Sea. Harper \\& Row. 1974."
+"full": "Clarke, Arthur C.. Voice across the Sea. Harper & Row. 1974."
 },
 "shannon1993": {
 "label": "Shannon et al. (1993)",
@@ -392,8 +392,8 @@
 "full": "Gallager, Robert G.. Principles of Digital Communication. Cambridge University Press. 2008."
 },
 "operator-precedence-cppreference": {
-"label": "C++~Reference~Community (2022)",
-"full": "C++~Reference~Community. C Operator Precedence. web. 2022."
+"label": "Community (2022)",
+"full": "C++ Reference Community. C Operator Precedence. web. 2022."
 },
 "jackson1955": {
 "label": "Jackson (1955)",
@@ -484,8 +484,8 @@
 "full": "Cannon, L. W. and Elliott, R. A. and Kirchhoff, L. W. and Miller, J. H. and Milner, J. M. and Mitze, R. W. and Schan, E. P. and Whittington, N. O. and Spencer, Henry and Keppel, David and Brader, Mark. Recommended C Style and Coding Standards. 2000."
 },
 "mingw": {
-"label": "MinGW~Project and Community (2021)",
-"full": "MinGW~Project and Community. Minimalist GNU for Windows (MinGW). 2021."
+"label": "Project and Community (2021)",
+"full": "MinGW Project and Community. Minimalist GNU for Windows (MinGW). 2021."
 },
 "eclipse": {
 "label": "IBM and Community (2014)",
@@ -508,8 +508,8 @@
 "full": "Gomez, Martin. Embedded State Machine Implementation. Embedded Systems Programming. 2000."
 },
 "NI2013": {
-"label": "National~Instruments (2013)",
-"full": "National~Instruments. User Guide and Specifications NI myRIO-1900. 2013."
+"label": "Instruments (2013)",
+"full": "National Instruments. User Guide and Specifications NI myRIO-1900. 2013."
 },
 "ARM2014b": {
 "label": "Arm (2012)",
@@ -553,7 +553,7 @@
 },
 "Baldursson2005": {
 "label": "Baldursson (2005)",
-"full": "Baldursson, Stef\\'an. BLDC Motor Modelling and Control -- A Matlab\\textregistered/ Simulink\\textregistered Implementation. 2005."
+"full": "Baldursson, Stefan. BLDC Motor Modelling and Control – A Matlab/ Simulink Implementation. 2005."
 },
 "Ramo1984": {
 "label": "Booton and Ramo (1984)",
