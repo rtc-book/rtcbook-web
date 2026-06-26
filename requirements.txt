@@ -1,6 +1,6 @@
 # A book site = this thin project + the parody-web package. Pin it; bump to roll
 # out renderer updates (automatable via Dependabot/Renovate).
-parody-web>=0.28.1,<0.29
+parody-web>=0.28.2,<0.29
 gunicorn>=22.0
 uvicorn[standard]>=0.30
 whitenoise>=6.6
